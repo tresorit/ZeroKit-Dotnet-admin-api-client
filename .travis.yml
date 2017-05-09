@@ -1,0 +1,5 @@
+language: csharp
+solution: ZeroKit-DotNet-admin-api-client.sln
+script:
+  - xbuild /p:Configuration=Release ZeroKit-DotNet-admin-api-client.sln
+  - mono ./packages/NUnit.ConsoleRunner.*/tools/nunit3-console.exe ./ZeroKitAdminApiClientTest/bin/Release/Tresorit.ZeroKit.AdminApiClient.Test.dll

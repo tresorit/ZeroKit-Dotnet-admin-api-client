@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroKitAdminApiClient", "ZeroKitAdminApiClient\ZeroKitAdminApiClient.csproj", "{445A3BAD-85F7-49F5-A744-2B9BFF74DE96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroKitAdminApiClientTest", "ZeroKitAdminApiClientTest\ZeroKitAdminApiClientTest.csproj", "{E174D8FB-B775-49D2-BCF4-2B4D36055A56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{445A3BAD-85F7-49F5-A744-2B9BFF74DE96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445A3BAD-85F7-49F5-A744-2B9BFF74DE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445A3BAD-85F7-49F5-A744-2B9BFF74DE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445A3BAD-85F7-49F5-A744-2B9BFF74DE96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E174D8FB-B775-49D2-BCF4-2B4D36055A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E174D8FB-B775-49D2-BCF4-2B4D36055A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E174D8FB-B775-49D2-BCF4-2B4D36055A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E174D8FB-B775-49D2-BCF4-2B4D36055A56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
